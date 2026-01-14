@@ -3,8 +3,6 @@
 #include <fstream>
 #include <iostream>
 
-// No AI used, all 100% my brain.
-
 double dt = 0.10;
 double disp = 0.00;
 double mass = 0.00;
@@ -173,5 +171,6 @@ int main()
     RK4(disp, v, t, dt);
     return 0;
 }
+
 
 // Euler diverges, Verlet conserves E.
