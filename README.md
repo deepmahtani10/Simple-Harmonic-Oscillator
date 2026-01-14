@@ -1,1 +1,2 @@
 A simple SHO script I decided to upload since I could not find one that did not use pre-existing libraries or OOP. I get that defining the Oscillator as a class is the best move, but for a dumbass like me this seems easier to approach.
+I've included 3 methods to resolve the equation of motion computationally. The RK-4 method, the Euler method and Velocity Verlet method. Each packaged as a function.
